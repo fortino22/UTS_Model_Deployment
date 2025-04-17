@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import pickle
 from sklearn.preprocessing import LabelEncoder, StandardScaler
-
+sciki
 @st.cache_resource
 def load_model():
     with open("best_loan_model.pkl", "rb") as f:
